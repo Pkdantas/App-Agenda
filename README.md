@@ -1,5 +1,5 @@
 Net e C#
-3 - Desenvolva uma pequena aplicação (CRUD-Ex: Cadastro de cliente) utilizando as seguintes
+- Desenvolva uma pequena aplicação (CRUD-Ex: Cadastro de cliente) utilizando as seguintes
 tecnologias/Frameworks
 ORM - EntityFramework
 UI (Desktop) Windows Forms - Interface Windows
