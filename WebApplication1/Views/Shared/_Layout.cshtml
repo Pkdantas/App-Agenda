@@ -4,7 +4,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - Agenda App</title>
+    <title>@ViewBag.Title - Agenda App</title> <!--Agenda App vai aparecer depois do nome do método chamado 
+                                               no título do Browser utilizado.-->
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
@@ -18,6 +19,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 @Html.ActionLink("Agenda", "Index", "Pessoas", new { area = "" }, new { @class = "navbar-brand" })
+                <!--Esses são os nomes que irão aparecer na barra de menus principal-->
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -29,7 +31,8 @@
         </div>
     </div>
     <div class="container body-content">
-        @RenderBody()
+        @RenderBody() <!--RenderBody is a placeholder where all the view-specific pages 
+                      you create show up, "wrapped" in the layout page.-->
         <hr />
         <footer>
             <p>&copy; @DateTime.Now.Year - Meu Aplicativo ASP.NET</p>
